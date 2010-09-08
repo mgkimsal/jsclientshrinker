@@ -40,7 +40,7 @@ file_put_contents("./$name", $f);
 <p>New file is: <?=filesize("./$name");?> bytes</p>
 <p><img src="<?=$name;?>"/></p>
 
-<a href="shrinker.tgz">grab this code</a> 
+<a href="shrinker.tgz">grab this code</a> or pull from <a href="http://github.com/mgkimsal/jsclientshrinker">github</a>
 </body>
 <script type="text/javascript">
 var _sf_async_config={uid:9726,domain:"michaelkimsal.com"};

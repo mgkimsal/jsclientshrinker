@@ -136,7 +136,7 @@ alert('problem - please attempt to upload again');
 <textarea name="base64" id="base64" rows='10' cols='90'></textarea>
    <input type="hidden" id="orig" name="orig" value=""/>
 </form>
-<a href="shrinker.tgz">grab this code</a>
+<a href="shrinker.tgz">grab this code</a> or pull from <a href="http://github.com/mgkimsal/jsclientshrinker">github</a>
 </body>
 <script type="text/javascript">
 var _sf_async_config={uid:9726,domain:"michaelkimsal.com"};
