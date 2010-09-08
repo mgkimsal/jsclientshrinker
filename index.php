@@ -2,6 +2,11 @@
     "http://www.w3.org/TR/html4/strict.dtd">
 <html>
 <head>
+<!--
+copyright michael kimsal 2010
+http://michaelkimsal.com/
+released into public domain
+-->
 <script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
 
 <title>Client side JavaScript file resize and upload</title>
