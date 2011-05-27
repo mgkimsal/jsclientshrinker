@@ -102,12 +102,14 @@ function resize() {
 				var maxx = document.getElementById('maxx').value;
 				var maxy = document.getElementById('maxy').value;
 				previewImage.src = e.target.result; 
-				var k = _resize(previewImage, maxx, maxy);
-				if(k!=false) { 
-				document.getElementById('base64').value= k;
-				document.getElementById('upload').submit();
-				} else {
-alert('problem - please attempt to upload again');
+				previewImage.onload = function() {
+					var k = _resize(previewImage, maxx, maxy);
+					if (k != false) { 
+						document.getElementById('base64').value= k;
+						document.getElementById('upload').submit();
+					} else {
+						alert('problem - please attempt to upload again');
+					}
 				}
 			}; 
 		})(preview);
